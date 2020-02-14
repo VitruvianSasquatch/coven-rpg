@@ -1,0 +1,46 @@
+body {
+	background-color: darkslategrey;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 140px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 40px;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #cccccc;
+}
+
+a.button {
+	background-color: darkred;
+	color: white !important;
+	
+	font-weight: bold;
+	font-size: 20px;
+	
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	border-radius: 10px;
+	
+	margin: 8px 2px;
+}
+.button:hover {
+	text-decoration: none;
+}
+
+.link-button-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
